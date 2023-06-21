@@ -1,0 +1,25 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(black, #9F5825, black);
+  /* Allow wrapping of divs */
+  /* Add additional flexbox properties as needed */
+}
+
+.product-container>div {
+
+
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  height: 350px;
+  min-width: 400px;
+  margin-top: 5px;
+
+
+
+}

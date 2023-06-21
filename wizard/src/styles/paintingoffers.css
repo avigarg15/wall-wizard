@@ -1,0 +1,62 @@
+.ourPaintingOffers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow-wrap: unset;
+    background-color: #EB4F6D;
+
+}
+
+.paintingContainer {
+    display: flex;
+
+}
+
+
+.photo img {
+
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border: 1px solid black;
+    background-size: auto;
+
+
+}
+
+.textdiv h4 {
+    text-align: center;
+}
+
+.textdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-size: larger;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    border: 1px solid black;
+    /* border-radius: 5%; */
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.9);
+
+}
+
+@media (max-width: 600px) {
+    .paintingContainer {
+        flex-direction: column;
+        /* Stack image and text vertically */
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    .photo img {
+        margin-bottom: 20px;
+        /* Adjust margin to create space between image and text */
+    }
+}
